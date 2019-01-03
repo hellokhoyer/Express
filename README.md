@@ -79,6 +79,12 @@ app.get('/', function(req, res){
 
 এখন আমরা হার্ডকোডে পোর্ট সেট করেছি। এটা ডাইনামিকভাবে ম্যানেজ করতে হবে। এনভায়রনমেন্ট অনুযায়ী পোর্ট অটো সেট হবে। **তো সেটা কিভাবে করা যায় একটু দেখিঃ**
 
+প্রথমে একটা একটা ভ্যারিয়েবল নিবো। এবং সেই ভ্যারিয়েবলে একটা মেথড পুশ করে দিবো।
+```javascript
+const port = process.env.PORT || 3000;
+```
+> এখন `port` এ এনভারনমেন্ট এর অবস্থান অনুযায়ী পোর্ট সেট হবে। অথবা (||) 3000 ডিফল্ট হিসেবে থাকবে।
+
 এবার পুরো কাজগুলো দেখে নিই।
 
 ```javascript
@@ -91,8 +97,9 @@ const app = express();
     res.send("Hello world!");
     });
 // 3. Create server
-app.listen(3000, function(){
-    console.log("sever running on port : 3000");
+const port = process.env.PORT || 3000;
+app.listen(port, function(){
+    console.log("sever running on port : " + port);
 });
 ```
 
