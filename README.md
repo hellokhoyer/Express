@@ -6,9 +6,9 @@
 - [সার্ভার তৈরি করা](#সার্ভার-তৈরি-করাঃ)
 - [টেমপ্লেটিং](#টেমপ্লেটিংঃ)
 - [Routing](#Routing)
-- [Middleware](#middleware)
-    [❏ Third Party Middleware](#third-party-middleware) *আসছে*
-    [❏ Error Handaling](#) *আসছে*
+- [Middleware](#middleware)\
+    [❏ Third Party Middleware](#third-party-middleware) *আসছে*&nbsp;
+    [❏ Error Handaling](#) *আসছে*&nbsp;
 - [Static Assets Management](#) *আসছে*
 
 
