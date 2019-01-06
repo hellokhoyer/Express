@@ -6,7 +6,7 @@
 - [সার্ভার তৈরি করা](#সার্ভার-তৈরি-করাঃ)
 - [টেমপ্লেটিং](#টেমপ্লেটিংঃ)
 - [Routing](#Routing)
-- [Middleware](#middleware:)
+- [Middleware](#Middleware:)
 - [Static Assets Management](#) *আসছে*
 
 
