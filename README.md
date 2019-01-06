@@ -7,8 +7,8 @@
 - [টেমপ্লেটিং](#টেমপ্লেটিংঃ)
 - [Routing](#Routing)
 - [Middleware](#middleware)\
-    [❏ Third Party Middleware](#third-party-middleware) *আসছে*&nbsp;
-    [❏ Error Handaling](#) *আসছে*&nbsp;
+    [❏ Third Party Middleware](#third-party-middleware) *আসছে*\
+    [❏ Error Handaling](#) *আসছে*
 - [Static Assets Management](#) *আসছে*
 
 
